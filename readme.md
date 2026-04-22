@@ -13,8 +13,8 @@
 
 
 # 💠 Links
-- GitHub: 
-- Demo: 
+- GitHub: https://github.com/marcospmtech/Marcos-Monea-Portfolio
+- Demo: https://marcospmtech.github.io/Marcos-Monea-Portfolio/
 
 
 # 💠 Tecnologias Usadas

@@ -94,8 +94,8 @@
 
 - Marcos P. Monea
 - E-mail: marcos.monea@yahoo.com
-- GitHub: 
-- Linkedin: 
+- GitHub: [Clique aqui](https://www.github.com/marcospmtech)
+- Linkedin: [Clique aqui](https://www.linkedin.com/in/marcostech)
 
 # 💠 Licença
 

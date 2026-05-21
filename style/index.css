@@ -135,7 +135,7 @@ nav a {
 
 .section-title:hover + .barra-timeline {
     height: 5px;
-    width: 130px;
+    width: 141px;
     background: linear-gradient(to right, #3B82F6, #2563EB);
 }
 
@@ -238,7 +238,7 @@ nav a {
 }
 
 .card-projetos {
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -289,6 +289,7 @@ nav a {
     padding-right: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
+    flex-wrap: wrap;
 }
 
 .card-projetos h3 {
@@ -341,6 +342,31 @@ nav a {
     width: 24px;
 }
 
+/* ======> CERTIFICAÇÕES <====== */
+#certificacoes-grid {
+    width: 90;
+    height: auto;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-certificacoes {
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #111827;
+    border-radius: 15px;
+    transition: all ease 0.2s;
+    border: 0.5px solid #1E293B;
+    overflow: hidden;
+}
+
 /* ======> TIMELINE <====== */
 
 .post-grid {
@@ -351,6 +377,8 @@ nav a {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .post-grid h1 {
@@ -366,6 +394,8 @@ nav a {
     border: 1px solid #1E293B;
     border-radius: 15px;
     padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .card-post-title {
@@ -485,4 +515,180 @@ footer a:hover {
     transform: scale(1.1) translateY(-3px);
     transform-origin: center;
     border: 1.5px solid #F1F5F9;
+}
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    header img {
+        height: 50px;
+    }
+
+    nav {
+        justify-content: center;
+        max-width: 100%;
+        font-size: 13px;
+        gap: 10px;
+    }
+
+    /* PERFIL */
+    #perfil {
+        min-height: auto;
+        padding: 40px 15px;
+    }
+
+    .card-perfil {
+        width: 90%;
+        height: auto;
+        padding: 30px 15px;
+        box-sizing: border-box;
+    }
+
+    .card-perfil h1 {
+        font-size: 22px;
+    }
+
+    .card-perfil h2 {
+        text-align: center;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .social-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 10px;
+    }
+
+    .card-perfil a {
+        width: 100px;
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .social-ico {
+        height: 22px;
+        width: 22px;
+    }
+
+    /* SECTIONS */
+    #projetos, #certificacoes, #timeline {
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    /* PROJETOS */
+    #projetos-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 15px;
+        padding: 10px 0;
+        align-items: stretch;
+    }
+
+    .card-projetos {
+        height: 100%;
+        min-height: 0;
+        gap: 12px;
+    }
+
+    .card-projetos img {
+        height: 120px;
+    }
+
+    .card-projetos h1 {
+        font-size: 14px;
+        padding-left: 12px;
+    }
+
+    .card-projetos h2 {
+        font-size: 11px;
+        padding-left: 12px;
+        padding-right: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .tec-grid {
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 0 12px;
+    }
+
+    .card-projetos h3 {
+        font-size: 10px;
+        padding: 3px 5px;
+        white-space: nowrap;
+    }
+
+    .link-grid {
+        padding-left: 12px;
+        gap: 10px;
+        height: auto;
+        padding-bottom: 12px;
+    }
+
+    .link-grid a {
+        font-size: 13px;
+    }
+
+    .icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    /* TIMELINE */
+    .post-grid {
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .post-grid h1 {
+        font-size: 12px;
+    }
+
+    .card-post {
+        width: 100%;
+    }
+
+    .card-post-title {
+        font-size: 16px;
+    }
+
+    .card-post h2 {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .card-link-grid a {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* FOOTER */
+    .footer-social-grid {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    footer a {
+        width: 100px;
+        height: 36px;
+        font-size: 13px;
+    }
 }

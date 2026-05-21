@@ -2,7 +2,7 @@
 ![Logo](src/logo/logo_r/Logo_r_250x100.png)
 
 # 💎 Marcos Pereira Monea - Portfólio
-### Portfólio pessoal desenvolvido com HTML5 e CSS3 para apresentar meus projetos, certificados e evolução. Este portfólio foi desenvolvido com foco em praticar HTML e CSS puro, sem uso de frameworks, priorizando responsividade, organização de código e boas práticas de layout.
+Portfólio pessoal desenvolvido com HTML5 e CSS3 para apresentar meus projetos, certificados e evolução. Este portfólio foi desenvolvido com foco em praticar HTML e CSS puro, sem uso de frameworks, priorizando responsividade, organização de código e boas práticas de layout.
 
 
 # 💠 Preview
@@ -79,7 +79,7 @@
 
 # 💠 Como rodar
 
-### Basta abrir o arquivo ```index.html``` no seu navegador ou acessar a demo.
+Basta abrir o arquivo ```index.html``` no seu navegador ou acessar a demo.
 
 
 # 💠  Funcionalidades

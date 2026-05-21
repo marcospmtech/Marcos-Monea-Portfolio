@@ -1,1 +1,6 @@
-*.ai
+# macOS
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
